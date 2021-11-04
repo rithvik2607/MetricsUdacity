@@ -4,19 +4,19 @@
 
 *TODO:* run `kubectl` command to show the running pods and services for all components. Take a screenshot of the output and include it here to verify the installation
 
-![alt text](./answer-img/AllPods.jpeg)
+![alt text](./answer-img/AllPods.png)
 
-![alt text](./answer-img/AllServices.jpeg)
+![alt text](./answer-img/AllServices.png)
 
 ## Setup the Jaeger and Prometheus source
 *TODO:* Expose Grafana to the internet and then setup Prometheus as a data source. Provide a screenshot of the home page after logging into Grafana.
 
-![alt text](./answer-img/grafanaHome.jpeg)
+![alt text](./answer-img/grafanaHome.png)
 
 ## Create a Basic Dashboard
 *TODO:* Create a dashboard in Grafana that shows Prometheus as a source. Take a screenshot and include it here.
 
-![alt text](./answer-img/prometheusPanel.jpeg)
+![alt text](./answer-img/prometheusPanel.png)
 
 ## Describe SLO/SLI
 *TODO:* Describe, in your own words, what the SLIs are, based on an SLO of *monthly uptime* and *request response time*.
@@ -44,12 +44,12 @@ To ensure that we are meeting these objectives we measure the SLIs at the end of
 ## Tracing our Flask App
 *TODO:*  We will create a Jaeger span to measure the processes on the backend. Once you fill in the span, provide a screenshot of it here.
 
-![alt text](./answer-img/JaegerTracingUI.jpeg)
+![alt text](./answer-img/JaegerTracingUI.png)
 
 ## Jaeger in Dashboards
 *TODO:* Now that the trace is running, let's add the metric to our current Grafana dashboard. Once this is completed, provide a screenshot of it here.
 
-![alt text](./answer-img/JaegerGrafana.jpeg)
+![alt text](./answer-img/JaegerGrafana.png)
 
 ## Report Error
 *TODO:* Using the template below, write a trouble ticket for the developers, to explain the errors that you are seeing (400, 500, latency) and to let them know the file that is causing the issue.
@@ -92,7 +92,7 @@ Description: Star endpoint accepts POST requests but is unable to connect to Mon
 ## Final Dashboard
 *TODO*: Create a Dashboard containing graphs that capture all the metrics of your KPIs and adequately representing your SLIs and SLOs. Include a screenshot of the dashboard here, and write a text description of what graphs are represented in the dashboard.  
 
-![alt text](./answer-img/grafanaFinal.jpeg)
+![alt text](./answer-img/grafanaFinal.png)
 
 Drive Usage - how much disk drive space is being used currently.
 Memory Usage - how much RAM memory is being used currently.
