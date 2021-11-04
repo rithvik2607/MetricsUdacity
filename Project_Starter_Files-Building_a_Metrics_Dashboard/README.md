@@ -11,7 +11,7 @@
 ## Setup the Jaeger and Prometheus source
 *TODO:* Expose Grafana to the internet and then setup Prometheus as a data source. Provide a screenshot of the home page after logging into Grafana.
 
-![alt text](./answer-img/grafanaHome.png)
+![alt text](./answer-img/grafanaLogin.png)
 
 ## Create a Basic Dashboard
 *TODO:* Create a dashboard in Grafana that shows Prometheus as a source. Take a screenshot and include it here.
@@ -94,12 +94,12 @@ Description: Star endpoint accepts POST requests but is unable to connect to Mon
 
 ![alt text](./answer-img/grafanaFinal.png)
 
-Drive Usage - how much disk drive space is being used currently.
-Memory Usage - how much RAM memory is being used currently.
-CPU Usage - how much cpu is being used currently.
-Successful Responses - total number of successful requests per month by containers.
-Error Responses - total number of error requests per month by containers and statuses.
-Server Uptime - how many minutes passed since the server was booted up.
-Deployment Uptime - uptime of the backend and frontend services.
-Average Response Time - average response time in ms measured over 1 hour intervals for successful requests. Shown per path.
-Requests under 300ms - percentage of successful requests finished within 300ms. Shown per path.
+- Drive Usage - how much disk drive space is being used currently.
+- Memory Usage - how much RAM memory is being used currently.
+- CPU Usage - how much cpu is being used currently.
+- Successful Responses - total number of successful requests per month by containers.
+- Error Responses - total number of error requests per month by containers and statuses.
+- Server Uptime - how many minutes passed since the server was booted up.
+- Deployment Uptime - uptime of the backend and frontend services.
+- Average Response Time - average response time in ms measured over 1 hour intervals for successful requests. Shown per path.
+- Requests under 300ms - percentage of successful requests finished within 300ms. Shown per path.
